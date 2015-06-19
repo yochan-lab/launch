@@ -4,3 +4,8 @@ Log/
 log.txt
 dump.txt
 *~
+
+.catkin_tools/
+install/
+build/
+devel/
