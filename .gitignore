@@ -1,0 +1,6 @@
+Log/
+*.bag
+*.log
+log.txt
+dump.txt
+*~
