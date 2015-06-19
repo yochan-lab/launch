@@ -1,0 +1,4 @@
+[submodule "src/rostful"]
+	path = src/rostful
+	url = http://github.com/yochan-lab/rostful
+	branch = master
