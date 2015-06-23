@@ -50,7 +50,3 @@
 	path = actionlib
 	url = https://github.com/ros/actionlib.git
 	branch = hydro-devel
-[submodule "src/actionlib"]
-	path = src/actionlib
-	url = https://github.com/ros/actionlib.git
-	branch = hydro-devel
