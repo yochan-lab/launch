@@ -2,3 +2,47 @@
 	path = src/rostful
 	url = http://github.com/yochan-lab/rostful
 	branch = catkin_convert
+[submodule "src/depthimage_to_laserscan"]
+	path = src/depthimage_to_laserscan
+	url = https://github.com/ros-perception/depthimage_to_laserscan
+	branch = hydro-devel
+[submodule "src/freenect_stack"]
+	path = src/freenect_stack
+	url = https://github.com/ros-drivers/freenect_stack.git
+	branch = hydro-devel
+[submodule "src/openni_tracker"]
+	path = src/openni_tracker
+	url = https://github.com/yochan-lab/openni_tracker.git
+	branch = hydro-devel
+[submodule "src/navigation"]
+	path = src/navigation
+	url = https://github.com/ros-planning/navigation
+	branch = hydro-devel
+[submodule "src/text2speech"]
+	path = src/text2speech
+	url = https://github.com/yochan-lab/text2speech
+	branch = master
+[submodule "src/peoplebot_2dnav"]
+	path = src/peoplebot_2dnav
+	url = https://github.com/yochan-lab/peoplebot_2dnav
+	branch = master
+[submodule "src/slam_gmapping"]
+	path = src/slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping
+	branch = hydro-devel
+[submodule "src/face_finder"]
+	path = src/face_finder
+	url = https://github.com/yochan-lab/face_finder
+	branch = master
+[submodule "src/face_recognition"]
+	path = src/face_recognition
+	url = https://github.com/yochan-lab/face_recognition
+	branch = master
+[submodule "src/orocos_kinematics_dynamics"]
+	path = src/orocos_kinematics_dynamics
+	url = http://github.com/orocos/orocos_kinematics_dynamics
+	branch = master
+[submodule "src/vision_opencv"]
+	path = src/vision_opencv
+	url = http://github.com/ros-perception/vision_opencv
+	branch = indigo
