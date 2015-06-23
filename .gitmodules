@@ -46,3 +46,7 @@
 	path = src/vision_opencv
 	url = http://github.com/ros-perception/vision_opencv
 	branch = indigo
+[submodule "actionlib"]
+	path = actionlib
+	url = https://github.com/ros/actionlib.git
+	branch = hydro-devel
