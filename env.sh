@@ -5,7 +5,7 @@ export LOC_HOSTNAME="localhost"
 
 export ROS_HOME_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 export ROS_HOSTNAME="`hostname`.local"
-export ROS_MASTER_URI="http://$LOC_HOSTNAME/"
+export ROS_MASTER_URI="http://$LOC_HOSTNAME:11311/"
 
 alias rec_pull="cd $ROS_HOME_DIR; git submodule init && git pull --recurse-submodules && git submodule status"
 alias rec_init="cd $ROS_HOME_DIR; rec_pull && catkin init"

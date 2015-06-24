@@ -54,3 +54,7 @@
 	path = src/peoplebot_launch
 	url = https://github.com/yochan-lab/peoplebot_launch.git
 	branch = master
+[submodule "src/pocketsphinx"]
+	path = src/pocketsphinx
+	url = https://github.com/yochan-lab/pocketsphinx
+	branch = indigo-devel
