@@ -1,8 +1,0 @@
-<launch>
-	<node name="face_finder" pkg="face_finder" type="face_finder">
-		<param name="face_cascade" value="/home/yochan/catkin_ws/src/face_finder/lbpcascade_frontalface.xml" />
-	</node>
-	<node name="face_recognizer" pkg="face_recognition" type="face_recognition">
-		<param name="training_file" value="/home/yochan/catkin_ws/src/face_recognition/t.dat" />
-	</node>
-</launch>

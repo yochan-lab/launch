@@ -1,0 +1,7 @@
+<launch>
+<!--	<env name="ROS_HOSTNAME" value="EN4102960.local" />
+	<env name="ROS_MASTER_URI" value="http://EN4102960.local:11311" /> -->
+	<arg name="face_database" value="~/faces.dat" />
+	<arg name="lm" value="~/en-us.lm" />
+	<include file="$(find peoplebot_launch)/launch/startup.launch" />
+</launch>

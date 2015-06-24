@@ -1,6 +1,0 @@
-<launch>
-	<node name="server" pkg="rostful" type="server" args="
-		-p 8080 
-		--base-path /api/
-		--topics move_base/cancel map rosout" />
-</launch>

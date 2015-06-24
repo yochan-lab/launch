@@ -50,3 +50,7 @@
 	path = actionlib
 	url = https://github.com/ros/actionlib.git
 	branch = hydro-devel
+[submodule "src/peoplebot_launch"]
+	path = src/peoplebot_launch
+	url = https://github.com/yochan-lab/peoplebot_launch.git
+	branch = master
