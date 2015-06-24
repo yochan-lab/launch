@@ -54,3 +54,7 @@
 	path = src/peoplebot_launch
 	url = https://github.com/yochan-lab/peoplebot_launch.git
 	branch = master
+[submodule "src/location_provider"]
+	path = src/location_provider
+	url = http://github.com/yochan-lab/location_provider.git
+	branch = master
