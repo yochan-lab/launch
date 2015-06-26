@@ -62,3 +62,11 @@
 	path = src/location_provider
 	url = http://github.com/yochan-lab/location_provider.git
 	branch = master
+[submodule "src/depthimage2laserscan"]
+	path = src/depthimage2laserscan
+	url = http://github.com/yochan-lab/depthimage2laserscan.git
+	branch = master
+[submodule "src/speech2text"]
+	path = src/speech2text
+	url = http://github.com/yochan-lab/speech2text.git
+	branch = master
